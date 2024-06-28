@@ -37,4 +37,10 @@ int main() {
     cin.getline(str, 50);
     cout << "Ââåä³òü ñèìâîëè ÿê³ õî÷åòå âèäàëåííÿ: ";
     cin.getline(str1, 10);
+
+    removeSymbols(str, str1);
+
+    cout << "Ğåçóëüòàò: " << str << endl;
+
+    return 0;
 }
